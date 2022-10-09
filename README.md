@@ -54,9 +54,7 @@
 
 ### Ciphers:
 - Added "Empty" button to disable all active ciphers
-- Added "English (special)" cipher category
 - Added "Custom" cipher category (English alphabet, fully customizable)
-- Added "Russian" cipher category
 
 ### Miscellaneous:
 - Characters with diacritic marks are recognized properly (Latin, Greek)
