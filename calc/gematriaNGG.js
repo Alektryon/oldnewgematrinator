@@ -840,25 +840,6 @@ function No_Ciphers(impBool = false) {
 	document.getElementById("Gematria_Table").innerHTML = "" // empty cipher table
 	Open_History() // update table
 }
-function Add_RussianCiphers(impBool = false) {
-	var x, q, cN, z
-	var baseCiphers = ["RU Ordinal", "RU Full Reduction", "RU Single Reduction", "RU Sumerian", "RU Reverse Ordinal", "RU Reverse Full Reduction", "RU Reverse Single Reduction", "RU Reverse Sumerian", "RU Extended", "RU Reverse Extended"]
-
-	openCiphers = []
-	for (z = 0; z < allCiphers.length; z++) {
-		if (baseCiphers.indexOf(allCiphers[z].Nickname) > -1) {
-			openCiphers.push(allCiphers[z].Nickname)
-		}
-	}
-
-	Build_Open_Ciphers()
-	if (impBool == true) {
-		Open_Ciphers()
-	} else {
-		Populate_MenuBar()
-	}
-	Open_History() // update table
-}
 function FindSpot(impName) {
 	for (x = 0; x < allCiphers.length; x++) {
 		if (allCiphers[x].Nickname == impName) {
