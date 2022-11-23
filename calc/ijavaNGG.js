@@ -706,16 +706,12 @@ function Build_CharTable(impCipher) {
 	}
 
 	if (impCipher.cArr.length > 40) {
-		rStr = '<center><table id="ChartTableThin" '
+		rStr = '<center><table id="ChartTableThin">'
 	} else {
-		rStr = '<table id="ChartTable" '
+		rStr = '<table id="ChartTable">'
 	}
 	
 	// gradient table background based on cipher color
-	rStr += 'style="background: rgb(16,16,16) -webkit-linear-gradient(0deg,rgba('+impCipher.RGB.join()+',0.2),#00000080); '
-	rStr += 'background: rgb(16,16,16) -o-linear-gradient(0deg,rgba('+impCipher.RGB.join()+',0.2),#00000080); '
-	rStr += 'background: rgb(16,16,16) -moz-linear-gradient(0deg,rgba('+impCipher.RGB.join()+',0.2),#00000080); '
-	rStr += 'background: rgb(16,16,16) linear-gradient(0deg,rgba('+impCipher.RGB.join()+',0.2),#00000080);">'
 	rStr += '<tr>'
 
 	rStr += '<td colspan="' + impCipher.cArr.length + '">'
@@ -726,7 +722,7 @@ function Build_CharTable(impCipher) {
 
 	if (impCipher.cArr.length < 30 && impCipher.vArr.reduce(getSum) < 200) {
 		for (x = 0; x < impCipher.cArr.length; x++) {
-			rStr += '<td class="ChartChar" font style="color: rgb(' + impCipher.RGB.join() +')">' + String.fromCharCode(impCipher.cArr[x]) + '</td>'
+			rStr += '<td class="ChartChar">' + String.fromCharCode(impCipher.cArr[x]) + '</td>'
 		}
 		rStr += '</tr><tr>'
 		for (x = 0; x < impCipher.cArr.length; x++) {
@@ -742,9 +738,9 @@ function Build_CharTable(impCipher) {
 				}
 				rStr += '</tr><tr>'
 			}
-			rStr += '<td class="ChartChar" font style="color: rgb(' + impCipher.RGB.join() +')">' + String.fromCharCode(impCipher.cArr[x]) + '</td>'
+			rStr += '<td class="ChartChar">' + String.fromCharCode(impCipher.cArr[x]) + '</td>'
 		}
-		if (impCipher.cArr.length % 2 == 1) { rStr += '<td class="ChartChar" font style="color: rgb(' + impCipher.RGB.join() +')"></td>' } // empty character cell to make even rows
+		if (impCipher.cArr.length % 2 == 1) { rStr += '<td class="ChartChar"></td>' } // empty character cell to make even rows
 		rStr += '</tr><tr>'
 		for (y; y < x; y++) {
 			rStr += '<td class="ChartVal">' + impCipher.vArr[y] + '</td>'
