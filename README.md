@@ -90,3 +90,8 @@ allCiphers[allCiphers.length-1].vArr = lowerCaseValues;
 allCiphers[allCiphers.length-1].vArr2 = upperCaseValues;
 Build_Open_Ciphers();
 ```
+
+---
+
+### Fork this repository!
+Fork this repository to unlock the "Alphanumeric Satanic" cipher, which is already included - but "hidden" - in the code (go to file: `oldnewgematrinator/calc/gematriaNGG.js` and remove the `//` marks from lines 51-56, 671 and 735).
