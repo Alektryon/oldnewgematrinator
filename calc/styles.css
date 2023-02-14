@@ -126,8 +126,8 @@ body {
 /* ------------------------------------------------ */
 
 #Highlight {
-	background-color: rgb(16,16,16);
-	color: rgb(222,222,222);
+	background-color: rgb(255,255,255);
+	color: rgb(0,0,0);
 	font-weight: bold;
 	border-style: solid;
 	border-width: 2px;
@@ -140,8 +140,8 @@ body {
 }
 
 #SearchField {
-	background-color: rgb(16,16,16);
-	color: rgb(222,222,222);
+	background-color: rgb(255,255,255);
+	color: rgb(0,0,0);
 /*	font-weight: bold;	*/
 	border-style: solid;
 	border-width: 2px;
