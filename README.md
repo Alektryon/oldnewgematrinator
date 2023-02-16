@@ -94,4 +94,4 @@ Build_Open_Ciphers();
 ---
 
 ### Fork this repository!
-Fork this repository to unlock the "Alphanumeric Satanic" cipher, which is already included - but "hidden" - in the code (go to file: `oldnewgematrinator/calc/gematriaNGG.js` and remove the `//` operator from lines 51-56, 671 and 735).
+Fork this repository to unlock the "Alphanumeric Satanic" cipher, which is already included - but "hidden" - in the code (go to file: `oldnewgematrinator/calc/gematriaNGG.js` and remove the `//` operator from lines 51-56, 690 and 754).
