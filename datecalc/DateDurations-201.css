@@ -1,0 +1,94 @@
+body {
+	color: white;
+	font-family: "Bookman Old Style", Arial;
+	background-color: RGB(34, 34, 34);
+}
+
+#DurTable {
+	text-align: center;
+	padding: 1px;
+}
+
+#DurTable th {
+	color: orange;
+	padding: 5px;
+}
+
+#DurTable td {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	min-width: 100px;
+}
+
+.DurHead {
+	font-size: 150%;
+	font-weight: bold;
+	color: orange;
+	text-align: center;
+}
+
+.u_Entry {
+	width: 125px;
+	text-align: center;
+}
+
+.u_Inp {
+	font-family: "Bookman Old Style", Arial;
+	font-size: 150%;
+	width: 75px;
+	text-align: center;
+}
+.u_Inp2 {
+	font-family: "Bookman Old Style", Arial;
+	font-size: 100%;
+	width: 50px;
+	text-align: center;
+}
+
+.Filler {
+	width: 100px;
+}
+
+.NumString {
+	background: rgb(25,25,25);
+	font-size: 125%;
+	padding-left: 10px;
+	width: 275px;
+}
+
+.SumString {
+	background: rgb(16,16,16);
+	background: linear-gradient(180deg, rgba(16,16,16,1) 0%, rgba(8,8,8,1) 50%, rgba(16,16,16,1) 100%);
+	font-weight: bold;
+	font-size: 140%;
+	width: 65px;
+	text-align: center;
+}
+
+.InputCells {
+	width: 350px;
+	padding: 5px;
+	background: rgb(34,34,34);
+	background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(16,16,16,1) 50%, rgba(34,34,34,1) 100%);
+}
+
+.DurNum {
+	font-weight: bold;
+	font-size: 150%;
+	color: RGB(175, 220, 255);
+}
+
+.FullDateString {
+	text-align: center;
+	color: RGB(255, 255, 255);
+	font-weight: 900;
+	font-size: 150%;
+}
+
+.DurationString {
+	color: RGB(125, 225, 255);
+	font-weight: 900;
+	font-size: 120%;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<HTML>
+
+<!--<script src="DateCalc.js"></script> !-->
+<script src="DateCalc-206.js"></script>
+
+<head>
+	<title>Date Calculator</title>
+	<meta name="Date Duration Calculator - GEMATRINATOR.com" content="Best Date Duration Calculator on the Internet, Gematria, Numerology">
+	<link rel="stylesheet" type="text/css" href="DateDurations-201.css">
+
+
+</head>
+
+<body onload="Page_Launch()">
+
+<center>
+<p id="DateSpot">
+
+<table>
+	<tr>
+		<td colspan="2" class="FullDateString"><div id="FDS1"></div></td>
+		<td></td>
+		<td colspan="2" class="FullDateString"><div id="FDS2"></div></td>
+	</tr>
+	<tr>
+		<td class="u_Entry" colspan="2">
+			<table class="InputCells">
+				<tr><center>
+					<td>
+						Month:<BR><input tabindex=1 type="number" max="13" min="0" class="u_Inp" id="Month1" oninput="Set_Dates(1, 'm')"></input><BR>
+						<!--Hour:<BR><input tabindex=7 type="number" max="23" min="1" class="u_Inp2" id="Hour1" oninput="Set_Dates()"></input>-->
+					</td>
+					<td>
+						Day:<BR><input tabindex=2 type="number" max="32" min="0" class="u_Inp" id="Day1" oninput="Set_Dates(1, 'd')"></input><BR>
+						<!--Minute:<BR><input tabindex=8 type="number" max="59" min="1" class="u_Inp2" id="Min1" oninput="Set_Dates()"></input>-->
+					</td>
+					<td>
+						Year:<BR><input tabindex=3 type="number" max="10000" min="0" class="u_Inp" id="Year1" oninput="Set_Dates(1, 'y')"></input><BR>
+						<!--Second:<BR><input tabindex=9 type="number" max="59" min="1" class="u_Inp2" id="Sec1" oninput="Set_Dates()"></input>-->
+					</td>
+				</center></tr>
+			</table>
+		</td>
+		<td class="Filler"></td>
+		<td class="u_Entry" colspan="2">
+			<table class="InputCells">
+				<tr><center>
+					<td>
+						Month:<BR><input tabindex=4 type="number" max="13" min="0" class="u_Inp" id="Month2" oninput="Set_Dates(2, 'm')"></input><BR>
+						<!--Hour:<BR><input tabindex=10 type="number" max="23" min="1" class="u_Inp2" id="Hour2" oninput="Set_Dates()"></input>-->
+					</td>
+					<td>
+						Day:<BR><input tabindex=5 type="number" max="32" min="0" class="u_Inp" id="Day2" oninput="Set_Dates(2, 'd')"></input><BR>
+						<!--Minute:<BR><input tabindex=11 type="number" max="59" min="1" class="u_Inp2" id="Min2" oninput="Set_Dates()"></input>-->
+					</td>
+					<td>
+						Year:<BR><input tabindex=6 type="number" max="9999" min="0" class="u_Inp" id="Year2" oninput="Set_Dates(2, 'y')"></input><BR>
+						<!--Second:<BR><input tabindex=12 type="number" max="59" min="1" class="u_Inp2" id="Sec2" oninput="Set_Dates()"></input>-->
+					</td>
+				</center></tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="5">
+			<BR>
+			<div class="DurHead">Time Between Dates:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+			<center><input tabindex=13 type="checkbox" value="EndIncluded" id="Check_End" onclick="Change_Options()">Include End Date?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</input>
+			<table style="width: 700px">
+				<tr>
+					<td valign="center" width="125px"><div id="CheckBoxSpot"></div></td>
+					<td valign="top"><div id="DurationSpot"></div></td>
+				</tr>
+			</table></center>
+		</td>
+	</tr>
+	<tr>
+		<BR>
+		<td colspan="5"><div class="DurHead">Date Numerologies</div><div id="NumerologySpot"></div></td>
+	</tr>
+</table>
+
+</p>
+<p>&nbsp;</p>
+
+	<div id="PageFooter" style="background-color: RGB(34, 34, 34);">
+	</div>
+</center>
+
+</body>
+
+</HTML>
