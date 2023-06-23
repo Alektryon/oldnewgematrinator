@@ -94,8 +94,8 @@ body {
 
 /* ---------------- text selection ---------------- */
 ::selection {
-  color: rgb(16,16,16);
-  background: rgb(222,222,222);
+  color: rgb(0,0,0);
+  background: rgb(190,190,190);
 }
 
 /* ---------------- scrollbar style --------------- */
