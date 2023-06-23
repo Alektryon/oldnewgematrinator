@@ -33,8 +33,8 @@ function Populate_MenuBar() {
 
 	hStr = '<center><div class="MenuLink"><a href="javascript:Open_Ciphers()">Ciphers</a></div>  |  '
 	hStr += '<div class="MenuLink"><a href="javascript:Open_Options()">Options</a></div>  |  '
-	hStr += '<div class="MenuLink"><a href="https://github.com/Alektryon/oldnewgematrinator">GitHub (changelog)</a></div>  |  '
-	hStr += '<div class="MenuLink"><a href="datecalc/datecalculator.html" target="_blank">Date Calculator</a></div>'
+	hStr += '<div class="MenuLink"><a href="https://github.com/Alektryon/oldnewgematrinator" target="_blank">GitHub (changelog)</a></div>  |  '
+	hStr += '<div class="MenuLink2"><a href="datecalc/DateCalculator.html" target="_blank">Date Calculator</a></div>'
 	hStr += '<BR>'
 	hStr += '<div class="MenuLink">(Code based on <a href="https://gematrinator.com/calculator" target="_blank">Gematrinator.com</a>)</div>'
 	hStr += '<BR></center>'
