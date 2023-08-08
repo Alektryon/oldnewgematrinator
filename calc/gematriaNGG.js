@@ -750,7 +750,7 @@ function Set_Categories() {
 	cipherArray["Keypad"] = "Other"
 	cipherArray["Fibonacci"] = "Other"
    	cipherArray["Alphanumeric Qabbala"] = "Other"
-//	cipherArray["Alphanumeric Satanic"] = "Other"
+	cipherArray["Alphanumeric Satanic"] = "Other"
 
 	cipherArray["Hebrew Gematria"] = "Foreign"
 	cipherArray["Hebrew Ordinal"] = "Foreign"
