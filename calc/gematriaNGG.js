@@ -652,7 +652,7 @@ function Build_Ciphers() {
 			case "Standard": allCiphers[allCiphers.length] = new cipher(key, "English", 218, 226, 0, "Extend"); break;
 			case "Capitals Added": allCiphers[allCiphers.length] = new cipher(key, "English", 150, 244, 77, "CaseSensitive"); break;
 			case "Capitals Mixed": allCiphers[allCiphers.length] = new cipher(key, "English", 93, 187, 88, "AltCaseSensitive"); break;
-			case "Satanic": allCiphers[allCiphers.length] = new cipher(key, "English", 255, 0, 0, "SatanicNum"); break;
+			case "Satanic Gematria": allCiphers[allCiphers.length] = new cipher(key, "English", 255, 0, 0, "SatanicNum"); break;
 
 			case "Reverse": allCiphers[allCiphers.length] = new cipher(key, "English", 80, 235, 21, "Reverse"); break;
 			case "Reverse Reduction": allCiphers[allCiphers.length] = new cipher(key, "English", 100, 226, 226, "Reverse", "FullReduction"); break;
@@ -716,7 +716,7 @@ function Set_Categories() {
 	cipherArray["Standard"] = "English"
 	cipherArray["Capitals Added"] = "English"
 	cipherArray["Capitals Mixed"] = "English"
-	cipherArray["Satanic"] = "English"
+	cipherArray["Satanic Gematria"] = "English"
 
 	cipherArray["Reverse"] = "Reverse"
 	cipherArray["Reverse Reduction"] = "Reverse"
