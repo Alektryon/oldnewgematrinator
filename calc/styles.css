@@ -44,10 +44,10 @@ body {
 .MenuLink a:hover {color: hsl(180 100% 80% / 1)}
 .MenuLink a:active {color: hsl(60 100% 50% / 1)}
 
-.MenuLink2 a:link {color: hsl(156 100% 69% / 1)}
-.MenuLink2 a:visited {color: hsl(156 100% 69% / 1)}
-.MenuLink2 a:hover {color: hsl(149 100% 80% / 1)}
-.MenuLink2 a:active {color: hsl(39 100% 50% / 1)}
+.MenuLink2 a:link {color: hsl(127 100% 69% / 1)}
+.MenuLink2 a:visited {color: hsl(127 100% 69% / 1)}
+.MenuLink2 a:hover {color: hsl(120 100% 80% / 1)}
+.MenuLink2 a:active {color: hsl(30 100% 50% / 1)}
 
 .dragOver {
 	border: 2px solid hsl(187 100% 69% / 1) !important;
