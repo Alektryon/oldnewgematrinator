@@ -1,6 +1,6 @@
 body {
 	color: white;
-	font-family: "Bookman Old Style", Arial;
+	font-family: Arial, sans-serif;
 	background-color: RGB(34, 34, 34);
 }
 
@@ -35,13 +35,13 @@ body {
 }
 
 .u_Inp {
-	font-family: "Bookman Old Style", Arial;
+	font-family: Arial, sans-serif;
 	font-size: 150%;
 	width: 75px;
 	text-align: center;
 }
 .u_Inp2 {
-	font-family: "Bookman Old Style", Arial;
+	font-family: Arial, sans-serif;
 	font-size: 100%;
 	width: 50px;
 	text-align: center;
