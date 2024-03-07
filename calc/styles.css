@@ -98,10 +98,10 @@ body {
 }
 
 /* ---------------- text selection ---------------- */
-::selection {
+/*::selection {
   color: rgb(0,0,0);
   background: rgb(190,190,190);
-}
+}*/
 
 /* ---------------- scrollbar style --------------- */
 
