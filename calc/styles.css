@@ -133,7 +133,7 @@ body {
 #Highlight {
 	background-color: rgb(255,255,255);
 	color: rgb(0,0,0);
-	font-weight: bold;
+/*	font-weight: bold;	*/
 	border-style: solid;
 	border-width: 2px;
 	border-radius: 4px;
